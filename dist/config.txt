@@ -1,0 +1,5 @@
+host=localhost
+port=1521
+sid=dms
+user=sns
+password=sns1
