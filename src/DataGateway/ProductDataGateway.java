@@ -92,11 +92,11 @@ public class ProductDataGateway {
     }
     public static ProductDataGateway getInstance(){
         
-        if(itemDataGateway_ == null)
+        if(productDataGateway_ == null)
         {
-            itemDataGateway_ = new ProductDataGateway();
+            productDataGateway_ = new ProductDataGateway();
         }
-        return itemDataGateway_;
+        return productDataGateway_;
     }
   
     public boolean findByID(int ID){
@@ -264,6 +264,6 @@ public class ProductDataGateway {
     private Connection connection_;
     private Statement statement_;
     private PreparedStatement preparedStatement_;
-    private static ProductDataGateway itemDataGateway_ = null;
+    private static ProductDataGateway productDataGateway_ = null;
     private Map ProductRecordMap;
 }
