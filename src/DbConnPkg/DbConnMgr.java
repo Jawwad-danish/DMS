@@ -15,9 +15,7 @@ import java.util.Properties;
  * @author DanBroz
  */
 
-public class DbConnMgr {
-    
-    
+public class DbConnMgr {   
     
     public static Connection getConnection()
     {
