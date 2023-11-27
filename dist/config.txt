@@ -1,5 +1,6 @@
-host=localhost
+host=192.168.0.150
 port=1521
-sid=dms
-user=sns
-password=sns1
+sid=ipath
+user=IMPACTJAWWAD
+password=Ipath_2021
+db_type=mtls

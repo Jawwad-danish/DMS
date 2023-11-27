@@ -1,6 +1,6 @@
-host=192.168.1.107
+host=192.168.0.150
 port=1521
-sid=dandb
-user=sns
-password=sns1
-baseURL=https://dms-test-15017-default-rtdb.firebaseio.com/
+sid=ipath
+user=IMPACTJAWWAD
+password=Ipath_2021
+db_type=mtls
